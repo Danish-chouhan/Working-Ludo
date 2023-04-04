@@ -1,0 +1,132 @@
+body {
+    background-image: url("/img/bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container {
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+nav {
+    background-color: #333;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    display: block;
+    padding: 10px;
+
+}
+
+nav a:hover {
+    background-color: #555;
+}
+
+.social {
+    display: flex;
+    justify-content: center;
+}
+
+#h11 {
+    text-align: center;
+    color: rgb(14, 7, 7);
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#h12 {
+    text-align: center;
+    color: rgb(14, 7, 7);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 50px;
+}
+
+#button1 {
+    text-align: center;
+    font-size: 30px;
+    width: 100%;
+    background-color: #29f70e8d;
+    margin-top: 280px;
+    box-shadow: 20px 15px 20px;
+
+}
+
+#button1:hover {
+    background-color: #44e72e8d;
+    color: rgb(37, 50, 50);
+    box-shadow: 20px 15px 30px;
+}
+
+#arrow1 {
+
+    height: 200px;
+
+}
+
+.arrow {
+    display: flex;
+    justify-content: center;
+}
+
+#h13 {
+    text-align: center;
+    color: rgb(14, 7, 7);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+}
+
+a{
+    color: #111010;
+    text-decoration: none;
+}
+
+a:hover {
+    color: aqua;
+}
+
+@media screen and (min-width: 950px) {
+    body {
+        background-color: aqua;
+
+    }
+
+    nav ul {
+        display: flex;
+    }
+
+    nav li {
+        flex: 1 1 0;
+        text-align: center;
+    }
+
+}
+
+@media screen and (min-width: 650px) {
+    body {
+        background-color: aqua;
+
+    }
+
+    nav ul {
+        display: flex;
+    }
+
+    nav li {
+        flex: 1 1 0;
+        text-align: center;
+    }
+
+    nav {
+        display: flex;
+        justify-content: space-between;
+    }
+}
